@@ -1,0 +1,237 @@
+body {
+    margin-left: 35.5px;
+    margin-right: 36.5px;
+  }
+
+
+  .nt{
+    padding-left: 23.5px;
+    padding-right: 32.5px;
+  }
+
+  .iz{
+    padding-right: 27px;
+  }
+
+  .o{
+    padding-right: 24px;
+  }
+
+  .on{
+    padding-right: 27px;
+  }
+
+  .kz{
+    padding-right: 24px;
+  }
+
+  .c{
+    padding-right: 127.5px;
+  }
+
+  .header p {
+    display: inline-block;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-right: 23px;
+  }
+
+  .tnz{
+    padding-top: 82px;
+  }
+
+  .rr{
+    padding-top: 16px;
+    padding-bottom: 37.5px;
+  }
+
+  .num{
+    float: right;
+  }
+
+  .info p {
+    display: inline-block;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-right: 23px;
+    margin-top: 73.5px;
+  }
+
+   .i1{
+    margin-left: 33px;
+   }
+
+   .i2{
+    margin-left: 71px;
+   }
+
+   .zagT{
+    margin-top: 131.5px;
+   }
+
+  .vibor{
+    width: 113px;
+    height: 25.5px;
+    border-radius: 12.8px;
+  }
+
+  .mus{
+    position: absolute;
+    top: 655px;
+    left: 450px;
+  }
+
+  .svad{
+    position: absolute;
+    top: 830px;
+    left: 450px;
+  }
+
+  .mal{
+    position: absolute;
+    top: 1005px;
+  }
+
+  .fem{
+    position: absolute;
+    top: 1180px;
+  }
+
+  .chil{
+    position: absolute;
+    top: 1005px;
+    left: 343px;
+  }
+
+  .torti{
+    padding-bottom: 430px;
+  }
+
+  .indZakaz h1{
+    text-align: center;
+  }
+
+  .indZakaz h3{
+    text-align: center;
+  }
+
+  .iiz1{
+    padding-bottom: 20px;
+  }
+
+  .iiz2{
+    padding-bottom: 20px;
+  }
+
+  .Otzivi{
+    text-align: center;
+  }
+
+  .Otzivi p{
+    padding-top: 1px; /* Отступ сверху */
+    padding-bottom: 1px; /* Отступ снизу */
+ }
+
+ .bio p{
+
+ }
+
+.seti button{
+  width: 18px;
+  height: 18px;
+  border-radius: 10px;
+  padding-right: 15px;
+}
+ .about{
+  position: absolute;
+  top: 2940px;
+  left: 543px;
+ }
+  
+  .misl{
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  .preim h1{
+    text-align: center;
+    padding-top: 133px;
+  }
+
+  .preim h3{
+    text-align: center;
+  }
+  .prich li {
+    list-style-type: none;
+    padding-left: 353px;
+   }
+
+   .zabota{
+    padding-top: 207px;
+   }
+
+   .zakaz{
+    padding-top: 193px;
+    padding-left: 412px;
+   }
+
+   .kontact{
+    padding-top: 133px;
+    padding-bottom: 167px;
+   }
+
+   .forma form{
+    padding-bottom: 41px;
+
+   }
+
+   .forma button{
+    border-radius: 12px;
+   }
+
+   .dan{
+    padding-left: 65px;
+   }
+
+   .sset button{
+    width: 31.5px;
+    height: 31.5px;
+    border-radius: 15px;
+    padding-right: 15px;
+   }
+
+
+   .footer p{
+    display: inline-block;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-right: 23px;
+  }
+
+   .fnt{
+    padding-left: 81px;
+    padding-right: 28px;
+  }
+
+  .fiz{
+    padding-right: 23px;
+  }
+
+  .fo{
+    padding-right: 24px;
+  }
+
+  .fon{
+    padding-right: 22px;
+  }
+
+  .fkz{
+    padding-right: 24px;
+  }
+
+  .fc{
+    padding-right: 87px;
+  }
