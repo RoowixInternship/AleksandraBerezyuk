@@ -1,0 +1,300 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+   <meta charset="utf-8">
+   <title>Cakes</title>
+   <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <p class="logo">Cakes</p>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#ourCakes">Наши торты</a></li>
+                <li><a href="#individualOrder">Индивидуальный заказ</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+                <li><a href="#aboutUs">О нас</a></li>
+                <li><a href="#order">Как заказать</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+                <li class="number"><a href="tel:+79068999296">+7 906 899 92 96</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="infoOrder">
+            <h2>Торты на заказ</h2>
+            <p>Ручная работа</p>
+            <button class="infoBtn">Выбрать торт</button>
+            <ul class="info">
+                <li>Натуральные ингредиенты</li>
+                <li>Доставка бесплатно при заказе от 2000 рублей*</li>
+            </ul>
+        </div>
+
+        <section id="ourCakes">
+            <div class="ourCakes">
+                <h3>Наши торты</h3>
+                <div  class="features clearfix">
+                    <div class="classic">
+                        <a href="#">
+                            <p class="title">Классические</p>
+                            <p class="quantity">24 вида</p>
+                            <p class="look">смотреть</p>
+                            <p class="more"></p>
+                        </a>
+                    </div>
+                    <div class="mousse">
+                        <a href="#">
+                            <p class="title">Муссовые</p>
+                            <p class="quantity">12 видов</p>
+                            <p class="more"></p>
+                        </a>
+                    </div>
+                    <div class="wedding">
+                        <a href="#">
+                            <p class="title">Свадебные</p>
+                            <p class="quantity">20 видов</p>
+                            <p class="more"></p>
+                        </a>
+                    </div>
+                    <div class="male">
+                        <a href="#">
+                            <p class="title">Мужчинам</p>
+                            <p class="quantity">12 видов</p>
+                            <p class="more"></p>
+                        </a>
+                    </div>
+                    <div class="female">
+                        <a href="#">
+                            <p class="title">Женщинам</p>
+                            <p class="quantity">16 видов</p>
+                            <p class="more"></p>
+                        </a>
+                    </div>
+                    <div class="child">
+                        <a href="#">
+                            <p class="title">Детские</p>
+                            <p class="quantity">18 видов</p>
+                            <p class="more"></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="individualOrder">
+            <div class="individualOrder">
+                <h3>Индивидуальный заказ</h3>
+                <p>Соберите торт в 3 шага</p>
+                <div class="stages">
+
+                    <section>
+                        <div class="filling">
+                            <h3>
+                                <span> 01</span> 
+                                Выберите начинку
+                            </h3>
+                            <div class="slider">
+                                <button class="back"></button>
+                                <button class="forward"></button>
+                                <div>
+                                    <span>1/12</span>
+                                    <div>
+                                        <img src="" alt="Шоколадный ганаш">
+                                        <h4>Шоколадный ганаш</h4>
+                                        <p>Ароматный шоколадный бисквит, густой шоколадный крем – самый шоколадный из всех возможных десертов!</p>
+                                        <p>1000 руб/кг</p>
+                                        <button class="choose">выбрать</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section>
+                        <div class="size">
+                            <h3>
+                                <span>02</span> 
+                                Размер
+                            </h3>
+                            <div class="minimal">
+                                <p>17-18 см (1 кг – 6 персон)</p>
+                                <button></button>
+                            </div>
+                            <div class="small">
+                                <p>23-24 см (10–12 персон)</p>
+                                <button></button>
+                            </div>
+                            <div class="twoTiers">
+                                <p>Два яруса 25 и 20 см (15–20 персон)</p>
+                                <button></button>
+                            </div>
+                            <div class="threeTiers">
+                                <p>Три яруса 30,25 и 18 см (25–30 персон)</p>
+                                <button></button>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section>
+                        <div class="decor">
+                            <h3>
+                                <span>03</span> 
+                                Оформление
+                            </h3>
+                            <div class="slider">
+                                <button class="back"></button>
+                                <button class="forward"></button>
+                                <div>
+                                    <span>2/35</span>
+                                    <div>
+                                        <img src="" alt="Ягодное ассорти">
+                                        <p>Ягодное ассорти</p>
+                                        <p>700 руб/кг</p>
+                                    </div>
+                                    <div>
+                                        <img src="" alt="Маршмэллоу">
+                                        <p>Маршмэллоу</p>
+                                        <p>600 руб/кг</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <form>
+                                <p>Наш выбор</p>
+                                <label for="filling">Начинка</label><input type="text" id="filling" name="cake">
+                                <label for="size">Размер</label><input type="text" id="size" name="cale">
+                                <label for="decor">Оформление</label><input type="text" id="decor" name="cake">
+                                <button>Заказать торт </button>
+                            </form>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews">
+            <div class="reviews">
+                <h3>Отзывы</h3>
+                <div class="slider">
+                    <button class="back"></button>
+                    <button class="forward"></button>
+                    <div>
+                        <span>1/26</span>
+                        <div>
+                            <img src="" alt="photo">
+                            <p class="bio">Мария юрист, 33 года</p>
+                            <p class="review">Заказывала торт брауни на юбилей мужа. Гости были в восторге! Отдельное спасибо за своевременную доставку! Теперь будем заказывать торты только у вас для наших семейных праздников:) </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="aboutUs">
+            <div class="aboutUs">
+                <h3>О нас</h3>
+                <p>О кондитере</p>
+                <div class="description">
+                    <div>
+                        <h3>Кондитер – как призвание</h3>
+                        <p>Павел — профессиональный повар в различных гастрономических областях, но однажды его сердце покорило кондитерское искусство. С ранних лет он увлекался утонченным мастерством и обратился к своим талантам как кондитер. </p>
+                    </div>
+                    <div>
+                        <h3>Принцип – натуральные ингредиенты</h3>
+                        <p>Сегодня Павел радует изделиями не только близких, но и тех, кто предпочитает качественную продукцию для торжества, а главным принципом является выбор натуральных ингредиентов. </p>
+                    </div>
+                </div>
+                <div class="icon">
+                    <a class="inst" href="#"></a>
+                    <a class="vk" href="#"></a>
+                    <a class="twitter" href="#"></a>
+                </div>
+            </div>
+        </section>
+
+        <div class="quote">
+            <blockquote>Я за простые рецепты. В Италии это называют cucina povera: когда обычные ингредиенты превращаются в божественное блюдо.</blockquote>
+        </div>
+
+        <section class="advantages">
+            <h3>Наши преимущества</h3>
+            <p>Почему нас выбирают?</p>
+            <ul class="plus">
+                <li>Без искусственных добавок Работаем  с натуральными ингредиентами и свежими продуктами</li>
+                <li>Свежий торт в день торжества Торты изготавливаются в течение суток до отправки</li>
+            </ul>
+        </section>
+
+        <section>
+            <div class="customerCare">
+                <h3>Забота о клиентах</h3>
+                <p>Для нас важно</p>
+                <p>Нам важно чтобы каждый торт был безупречным, как внутри, так и снаружи, чтобы он был создан исключительно для вас и для вашего события.</p>
+            </div>
+        </section>
+
+        <section id="order">
+            <div class="order">
+                <h3>Как заказать</h3>
+                <ul class="howToOrder">
+                    <li><span>1</span> Срок заказа Размещать заказы желательно за 2-3 дня. На выходные заказы лучше размещать минимум за неделю. </li>
+                    <li><span>2</span> Доставка по городу оставка в пределах города 200 рублей , при заказе на сумму более 2000  доставка бесплатно.</li>
+                    <li><span>3</span> Доставка за городом Доставка за пределами города рассчитывается индивидуально.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contacts">
+            <div class="contacts">
+                <h3>Контакты</h3>
+                <p>Остались вопросы?</p>
+                <p>Заполните форму ниже и наш кондитер свяжется с Вами</p>
+                <form action="#">
+                    <label for="name">Имя</label><input type="text" placeholder="Ваше имя" id="name">
+                    <label for="email">Email</label><input type="text" placeholder="Email адрес" id="email">
+                    <label for="question">Вопрос</label><input type="text" placeholder="Ваш вопрос" id="question">
+                    <button type="submit">Отправить</button>
+                </form>
+                
+                <div class="contact">
+                    <p>Или позвоните по телефону: <a href="tel:+79068999296">+7 906 899 92 96</a></p>
+                    <p>Наша почта : <a href="mailto:bakerybypavel@mail.ru">bakerybypavel@mail.ru</a></p>
+                    <div class="socialNetworks">
+                        <p>Мы в соц. сетях:</p>
+                        <a class="inst" href="#"></a>
+                        <a class="vk" href="#"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p class="logo">Cakes</p>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#ourCakes">Наши торты</a></li>
+                <li><a href="#individualOrder">Индивидуальный заказ</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+                <li><a href="#aboutUs">О нас</a></li>
+                <li><a href="#order">Как заказать</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+
+        <div class="iconFooter">
+            <a class="vk" href="#"></a>
+            <a class="vk" href="#"></a>
+        </div>
+
+        <p>&copy; 2018 Cakes</p>
+    </footer>
+
+</body>
+</html>
